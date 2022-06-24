@@ -10,7 +10,7 @@
 
 <br>
 
-## <ins>**Instalacion**</ins>
+## <ins>**Instalacion de Neovim**</ins>
 
 <br>
 
@@ -43,7 +43,7 @@
 
 <br>
 
-## <ins>**Archivos de Configuracion**</ins>
+## <ins>**Descarga de los archivos de Configuracion**</ins>
 
 ## Windows
 
