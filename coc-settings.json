@@ -1,0 +1,15 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": ["css", "markdown", "javascript", "graphql", "html", "yaml",  "json"], 
+  "explorer.width": 30,
+  "explorer.icon.enableNerdfont": true,
+  "explorer.previewAction.onHover": false,
+  "explorer.keyMappings.global": {
+    "<cr>": ["expandable?", "expand", "open"],
+    "v": "open:vsplit"
+  },
+  "python.pythonPath" : "C:\\Python36",
+  "python.autoComplete.addBrackets": true,
+  "python.jediEnabled": false,
+  "python.jediPath": "C:/Python36/Lib/site-packages"
+}
+
