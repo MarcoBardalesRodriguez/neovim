@@ -1,10 +1,14 @@
 # Nvim
 
+![init-vim.png](init-vim-img.png)
+
 ## <ins>**Prerequisitos**</ins>
 
 - Node
 
 - Git
+
+- NerdFonts(recomendado)
 
 - Fzf (opcional)
 
