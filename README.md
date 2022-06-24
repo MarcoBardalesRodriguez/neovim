@@ -61,6 +61,10 @@
 
         git clone https://github.com/MarcoBardalesRodriguez/neovim.git
 
+- Renombrar carpeta 'neovim' para que funcione la configuracion
+
+        mv neovim nvim
+
 ## Ubuntu
 
 ### Terminal
@@ -76,6 +80,10 @@
 - Copiar repositorio de github
 
         git clone https://github.com/MarcoBardalesRodriguez/neovim.git
+
+- Renombrar carpeta 'neovim' para que funcione la configuracion
+
+        mv neovim nvim
 
 <br>
 
