@@ -22,15 +22,15 @@
 
 - Habilitar ejecucion de Scrips en  Powershell
 
-        `set-executionpolicy unrestricted –force`
+        set-executionpolicy unrestricted –force
 
 - Instalar Cocolatey
 
-        `[System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))`
+        [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 
 - Instalar Neovim
 
-        `choco install neovim`
+        choco install neovim
 
 
 ## Ubuntu 
@@ -39,7 +39,7 @@
 
 - Instalar Neovim
 
-        `sudo apt-get install neovim`
+        sudo apt-get install neovim
 
 <br>
 
@@ -51,15 +51,15 @@
 
 - Ir a la ruta de los archivos de Neovim
 
-        `cd AppData/Local`
+        cd AppData/Local
 
 - Renombrar carpeta 'nvim' 
 
-        `mv nvim nvim-previous-config`
+        mv nvim nvim-previous-config
 
 - Copiar repositorio de github
 
-        `git clone https://github.com/MarcoBardalesRodriguez/neovim.git`
+        git clone https://github.com/MarcoBardalesRodriguez/neovim.git
 
 ## Ubuntu
 
@@ -67,15 +67,15 @@
 
 - Ir a la ruta de los archivos de Neovim
 
-        `cd .config`
+        cd .config
 
 - Renombrar carpeta 'nvim' 
 
-        `mv nvim nvim-previous-config`
+        mv nvim nvim-previous-config
 
 - Copiar repositorio de github
 
-        `git clone https://github.com/MarcoBardalesRodriguez/neovim.git`
+        git clone https://github.com/MarcoBardalesRodriguez/neovim.git
 
 <br>
 
@@ -103,33 +103,38 @@
 
 - Crear carpeta para plugins
 
-        `mkdir ~/.vim`
-        `mkdir ~/.vim/plugged`
+        mkdir ~/.vim
+        mkdir ~/.vim/plugged
 
 - Abrir neovim
 
-        `nvim`
+        nvim
 
 - Ejecutar
 
-        `:PlugInstall`
+        :PlugInstall
 
 - Recargar neovim
 
-        `:source %`
+        :source %
 
 ## Ubuntu
 
 ### Terminal
 
+- Crear carpeta para plugins
+
+        mkdir ~/.vim
+        mkdir ~/.vim/plugged
+
 - Abrir neovim
 
-        `nvim`
+        nvim
 
 - Ejecutar
 
-        `:PlugInstall`
+        :PlugInstall
 
 - Recargar neovim
 
-        `:source %`
+        :source %
