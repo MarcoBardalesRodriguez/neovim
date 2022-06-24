@@ -59,7 +59,7 @@
 
 - Copiar repositorio de github
 
-        `git clone ...`
+        `git clone https://github.com/MarcoBardalesRodriguez/neovim.git`
 
 ## Ubuntu
 
@@ -75,7 +75,7 @@
 
 - Copiar repositorio de github
 
-        `git clone ...`
+        `git clone https://github.com/MarcoBardalesRodriguez/neovim.git`
 
 <br>
 
