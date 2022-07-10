@@ -150,3 +150,8 @@
 - Recargar neovim
 
         :source %
+        
+
+## <ins>**Extra for Linux**</ins>
+
+## Repair routes ...
